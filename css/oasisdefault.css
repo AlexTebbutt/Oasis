@@ -1,0 +1,882 @@
+html, body {
+	padding: 40px, 10px, 20px, 0px;
+	margin: 0 auto;
+	background-color: white;
+	color: #132c82;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	line-height: 13px
+	text-align: center;
+}
+
+table {
+  display: inline-table;
+  border-collapse: collapse;
+}
+
+a {
+  color: #132c82;
+}
+
+a:hover {
+  color: #a3a2ce;
+}
+
+/* Page layout */
+
+#holder {
+  width: auto;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+/* Background pic. om index page. Uncomment and change image [if required].
+#holderimage {
+  width: auto;
+	margin: 0px;
+	padding: 0;
+  background-image: url(../images/xmasfish200.jpg);
+  background-repeat: no-repeat;
+  background-position: 90% 80%;
+}
+*/
+
+#homebanner {
+  text-align: left;
+  width: 587px; 
+  margin: 0 auto 0 auto;
+}
+
+#homebody {
+  width: 587px; 
+  margin: 0 auto 0 auto;
+  padding: 0;
+  text-align: right;
+}
+
+#logo {
+  padding-top: 25px;
+  width: 300px;
+  float: left;
+}
+
+#heretohelp {
+  float: left;
+  margin: 0 0 0 10px;
+  padding-top: 15px;
+}
+
+#heretohelp p {
+  font-size: 25px;
+  line-height: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+#specialoffersadvert {
+  float: right;
+  margin-top: 5px;
+  width: 360px;
+}
+
+#specialoffersadvert a img {
+  border: 0;
+}
+
+#paymenttypes {
+  width: 210px;
+}
+
+#paymenttypes img {
+  padding-right: 10px;
+}
+
+#date {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  color: #192883;
+  padding-top: 25px;
+}
+
+#main {
+  width: 900px;
+  margin: 0 auto;
+  padding-top: 40px;
+  text-align: left;
+}
+
+/* Design/artwork page layout - Also used for Green Credentials */
+
+#damain {
+  width: 900px;
+  margin: 0 auto;
+  padding-top: 25px;
+  text-align: left;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+#dacosts {
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+#dablue {
+  color: #fff;
+  background-color: #132c82;
+  padding: 1px 20px 1px 20px;
+}
+
+/* Contact page */
+
+#maptext {
+  width: 300px;
+	font-size: 22px;
+	line-height: 24px;
+	float: left;
+}
+
+#map {
+  width: 401px;
+  float: right;
+}
+
+/* How To Order page */
+#htomain {
+  width: 900px;
+  margin: 0 auto;
+  padding-top: 25px;
+  text-align: left;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+/* Special Offer page */
+
+#somain {
+  width: 900px;
+  margin: 0 auto;
+  padding-top: 25px;
+  text-align: left;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+/* Competition page */
+
+#competitionmain {
+  width: 900px;
+  margin: 0 auto;
+  padding-top: 25px;
+  text-align: left;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+#competitionheader {
+	font-size: 15px;
+	text-align: center;
+	line-height: 2px;
+}
+
+#competitiontitle {
+  text-align: center;
+  font-size: 45px;
+  color: #fff;
+  background-color: #132c82;
+  padding: 13px 0;
+}
+
+#competitionfooter {
+	text-align: center;
+	font-size: 15px;
+	font-weight: 100;
+}
+
+
+/* Green credentials page */
+
+#gcmain {
+  color: #1f8224;
+  width: 900px;
+  margin: 0 auto;
+  padding-top: 25px;
+  text-align: left;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+#fsclogo {
+  text-align: center;
+}
+
+
+/* Home page navigation */
+
+#navigationhome {
+  width: 200px;
+  padding: 0 12px 0 0;
+  margin: 0;
+  float: left; 
+}
+
+#navigationhome ul {
+  width: 200px; 
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-family: Tahoma, Geneva, sans-serif;
+  text-align: left;
+}
+
+#navigationhome a {
+  display: block;
+}
+
+#xmascardshome a, #leafletshome a, #copyinghome a, #businesscardshome a, #letterheadshome a, #complimentslipshome a, #invitationshome a, #posterprintinghome a, #personalstationeryhome a, #weddingstationeryhome a, #newslettersbrochureshome a, #designartworkhome a, #bindinghome a, #specialoffershome a, #howtoorderhome a, #aboutushome a, #contacthome a, #postcardshome a, #greenhome a {
+  width: 199px;
+  padding: 0 0 0 10px;
+  color: #FFF;
+  border: 1px solid #FFF;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 34px;
+  text-decoration: none;
+}
+
+#xmascardshome a, #leafletshome a, #copyinghome a, #businesscardshome a, #letterheadshome a, #complimentslipshome a, #invitationshome a, #posterprintinghome a, #personalstationeryhome a, #weddingstationeryhome a, #newslettersbrochureshome a, #designartworkhome a, #bindinghome a, #specialoffershome a, #howtoorderhome a, #aboutushome a, #contacthome a, #postcardshome a, #copyinghome a:hover, #businesscardshome a:hover, #letterheadshome a:hover, #complimentslipshome a:hover, #invitationshome a:hover, #posterprintinghome a:hover, #personalstationeryhome a:hover, #weddingstationeryhome a:hover, #newslettersbrochureshome a:hover, #designartworkhome a:hover, #bindinghome a:hover, #specialoffershome a:hover, #howtoorderhome a:hover, #aboutushome a:hover, #contacthome a:hover, #postcardshome a:hover, #leafletshome a:hover {
+  margin: 4px 0;
+}
+
+/*#stockimageshome {
+  text-indent: -9000px;
+}*/
+
+#stockimageshome {
+  width: 300px;
+  background-image: url(../images/TaglineLow.gif);
+  background-repeat: no-repeat;
+  background-position: left;   
+  padding: 80px 0 0 0;
+  margin: 0;
+}
+
+#xmascardshome a {
+  background-color: #C91400;
+}
+
+#xmascardshome a:hover {
+  color: #C91400;
+  background-color: #FFF;
+  border: 1px solid #C91400;
+ }
+
+#leafletshome a {
+  background-color: #1B3F95;
+}
+
+#leafletshome a:hover {
+  color: #1B3F95;
+  background-color: #FFF;
+  border: 1px solid #1B3F95;
+ }
+
+#copyinghome a {
+  background-color: #294599;
+}
+
+#copyinghome a:hover {
+  color: #294599;
+  background-color: #FFF;
+  border: 1px solid #294599;
+}
+
+#businesscardshome a {
+  background-color: #334C9E;
+}
+
+#businesscardshome a:hover {
+  color: #334C9E;
+  background-color: #FFF;
+  border: 1px solid #334C9E;
+}
+
+#letterheadshome a {
+  background-color: #3D52A1;  
+}
+
+#letterheadshome a:hover {
+  color: #3D52A1;  
+  background-color: #FFF; 
+  border: 1px solid #3D52A1;  
+}
+
+#complimentslipshome a {
+  background-color: #485AA6;
+}
+
+#complimentslipshome a:hover {
+  color: #485AA6;
+  background-color: #FFF;
+  border: 1px solid #485AA6;
+}
+
+#invitationshome a {
+  Background-color: #5260A7;
+}
+
+#invitationshome a:hover {
+  color: #5260A7;
+  Background-color: #FFF;
+  border: 1px solid #5260A7;
+}
+
+#posterprintinghome a {
+  background-color: #5B68AE;  
+}
+
+#posterprintinghome a:hover {
+  color: #5B68AE;  
+  background-color: #FFF; 
+  border: 1px solid #5B68AE;  
+}
+
+#personalstationeryhome a {
+  background-color: #666FB2;
+}
+
+#personalstationeryhome a:hover {
+  color: #666FB2;
+  background-color: #FFF;
+  border: 1px solid #666FB2;
+}
+
+#weddingstationeryhome a {
+  background-color: #6F77B6;
+}
+
+#weddingstationeryhome a:hover {
+  color: #6F77B6;
+  background-color: #FFF;
+  border: 1px solid #6F77B6;
+}
+
+#newslettersbrochureshome a {
+  background-color: #797FBB;
+}
+
+#newslettersbrochureshome a:hover {
+  color: #797FBB;
+  background-color: #FFF;
+  border: 1px solid #797FBB;
+}
+
+#postcardshome a {
+  background-color: #8287BF;
+}
+
+#postcardshome a:hover {
+  color: #8B91C5;
+  background-color: #FFF;
+  border: 1px solid #8287BF;
+}
+
+#designartworkhome a {
+  background-color: #8B91C5;
+}
+
+#designartworkhome a:hover {
+  color: #8287BF;
+  background-color: #FFF;
+  border: 1px solid #8B91C5;
+}
+
+#specialoffershome a {
+  background-color: #949ACA;
+}
+
+#specialoffershome a:hover {
+  color: #8B91C5;
+  background-color: #FFF;
+  border: 1px solid #949ACA;
+}
+
+#aboutushome a {
+  background-color: #949ACA;
+}
+
+#aboutushome a:hover {
+  color: #949ACA;
+  background-color: #FFF;
+  border: 1px solid #949ACA;
+}
+
+#howtoorderhome a {
+  background-color: #949ACA;
+}
+
+#howtoorderhome a:hover {
+  color: #949ACA;
+  background-color: #FFF;
+  border: 1px solid #949ACA;
+}
+
+#contacthome a {
+  background-color: #949ACA;
+}
+
+#contacthome a:hover {
+  color: #949ACA;
+  background-color: #FFF;
+  border: 1px solid #949ACA;
+}
+
+/* Competition button removed 08-04-2010 
+
+#competitionhome a {
+  background-color: #ca0019;
+}
+
+#competitionhome a:hover {
+  color: #ca0019;
+  background-color: #FFF;
+  border: 1px solid #ca0019;
+}
+
+*/
+
+#greenhome a {
+  background-color: #1f8224;
+  margin-bottom: 4px;
+}
+
+#greenhome a:hover {
+  color: #1f8224;
+  background-color: #FFF;
+  border: 1px solid #1f8224;
+}
+
+#mastercardsymbolhome {
+  margin: 0 19px 0 19px;
+}
+
+#mastercardsymbolhome, #visasymbolhome, #electronsymbolhome {
+  padding-top: 20px;
+}
+
+/* Costs page navigation */
+
+#bluetop {
+  width: auto;
+  color: white;
+  margin: 0;
+  padding: 5px 0 5px 0;
+  background-color: #132c82;
+	text-align: center;
+}
+
+
+#navtitle {
+  width: 900px;
+  margin: 0 auto;
+}
+
+#navtop, #navmiddle, #navbottom {
+  width: auto;
+  margin: 0;
+  font-size: 17px;
+  line-height: 21px;
+  margin: 0;
+  padding: 0 0 8px 0;
+  text-align: center;
+}
+
+#navtop ul, #navmiddle ul, #navbottom ul {
+/* Amended width from 900 - 910 for xmas card addition to menu. */
+  width: 910px;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+#navtop li, #navmiddle li, #navbottom li {
+  width: 900px;
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+#navtop a, #navmiddle a, #navbottom a {
+  color: #a3a2ce;
+  text-decoration: none;
+  margin: 0;
+  padding:0 22px 5px 0;
+}
+
+#navtop a:hover, #navmiddle a:hover, #navbottom a:hover {
+ text-decoration: underline;
+}
+
+#navtop a:active {
+  text-decoration: underline;
+}
+
+/* Green credentials navigation  [in green surprise, suprise] */
+
+#greentop {
+  width: auto;
+  color: white;
+  margin: 0;
+  padding: 5px 0 5px 0;
+  background-color: #1f8224;
+}
+
+#greennavtop, #greennavmiddle, #greennavbottom {
+  width: auto;
+  margin: 0;
+  font-size: 17px;
+  line-height: 21px;
+  margin: 0;
+  padding: 0 0 8px 0;
+  text-align: center;
+}
+
+#greennavtop ul, #greennavmiddle ul, #greennavbottom ul {
+  width: 900px;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+#greennavtop li, #greennavmiddle li, #greennavbottom li {
+  width: 900px;
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+#greennavtop a, #greennavmiddle a, #greennavbottom a {
+  color: #a4ba6d;
+  text-decoration: none;
+  margin: 0;
+  padding:0 22px 5px 0;
+}
+
+#greennavtop a:hover, #greennavmiddle a:hover, #greennavbottom a:hover {
+ text-decoration: underline;
+}
+
+#greennavtop a:active {
+  text-decoration: underline;
+}
+
+/*#navtop a.active:link, #navtop a.active:visited, #navbottom a.active:link, #navbottom a.active:visited {
+  position: relative;
+  z-index: 102;
+  font-weight: bold;
+}*/
+
+
+/* Additional Xmas cards styling */
+#cxc {
+  font-size: 24px;
+}
+
+p.xmascards {
+  font-size: 25px;
+  font-weight: 700;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  width: 600px;
+}
+
+p.xmascards img, .crukimg {
+  margin-bottom: -15px;
+}
+
+.aligntop {
+  vertical-align: top;
+}
+
+p.xmascards img {
+  border: 0;
+}
+
+
+/* Charity Card styling */
+#order {
+  width: 900px;
+}
+
+#order fieldset {
+  border: none;
+}
+
+#order ul li {
+  list-style: none;
+}
+
+ul#customerdetails, ul#carddetails {
+  padding: 0;
+}
+
+ul#customerdetails p, ul#carddetails p {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+ul#carddetails label {
+  font-size: 15px;
+  font-weight: 100;
+}
+
+ul#customerdetails li label.general {
+  width: 180px;
+  float: left;
+}
+
+ul#customerdetails li label.email {
+  float: left;
+  padding-left: 16px;
+}
+
+ul#carddetails li {
+  float: left;
+  text-align: center;
+  width: 290px;
+}
+
+
+ul#carddetails li p {
+  margin: 0;
+  padding: 20px 0 10px 0;
+  width: 290px;
+}
+
+/*ul#carddetails li img {
+  position: relative;
+  top: 30%;
+  margin-top: -88%;
+  vertical-align: middle;
+}*/
+
+div.cardimage {
+  min-height: 200px;
+  padding: 5px 0;
+}
+
+input.underline {
+  border: none;
+  border-bottom: 2px solid #132C82;
+  color: #132C82;
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  margin-top: -5px;
+}
+
+fieldset#cardtotal {
+  border: 1px solid #132C82;
+  margin: 0 auto;
+  padding: 10px;
+  width: 400px;
+}
+
+fieldset#cardtotal li {
+  display: block;
+  clear: both;
+}
+
+
+fieldset#cardtotal ul li label {
+  width: 150px;
+}
+
+/* General classs */
+
+.clear {
+  clear: both;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bar {
+  width: auto;
+  border-bottom: solid #6d70b1 2px;
+}
+
+.box {
+	width: auto;
+	border: 1px solid #6d70b1;
+	margin: 2px 0 2px 0;
+	padding-left: 20px;
+}
+
+.right {
+  text-align: right;
+}
+
+.fltright {
+	float: right;
+}
+
+.fltleft {
+	float: left;
+}
+
+
+/* table classes */
+
+.dacoststable td {
+  width: 66%;
+}
+
+.sizes td {
+  font-size: 25px;
+  padding-top: 5px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+}
+
+.costs5, .costs7, .costs8, .costs9 {
+  width: 900px;
+  font-size: 25px;
+}
+
+.costs5 td {
+  width: 20%;
+}
+
+.costs7 td {
+  width: 14.28%;
+}
+
+.costs8 td {
+  width: 12.5%;
+}
+
+.costs9 td {
+  width: 11.11%;
+}
+
+.tablehead {
+	background-color: #132c82;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.tablehead td {
+  padding: 8px 0;
+}
+
+.tablebody td {
+  padding: 20px 0;
+}
+
+.costs-centered {
+  text-align: center;
+}
+
+.cost-indent {
+  text-indent: 10px;
+}
+
+.costs-border {
+  border-bottom: solid #6d70b1 2px;
+  text-align: center;
+}
+
+.costs-footer {
+  padding: 20px 0 20px 0;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.xmascards {
+  font-size: 25px;
+}
+
+/* Font classes */
+
+.cost-title {
+  font-size: 25px;
+  padding-top: 8px;
+}
+
+.page-title {
+  font-family: Arial;
+  font-size: 55px;
+  font-weight: 100;
+  line-height: 61px;
+  margin: 0;
+  padding: 0;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.bold-large {
+  font-weight: 700;
+}
+
+.bold-massive {
+  font-size: 30px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.competition-bold {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 8px;
+}
+
+.competition-small {
+	font-size: 15px;
+	font-weight: 100;
+	line-height: 8px;
+}
+
+.mini {
+  font-size: 10px;
+}
+
+.nounderscore {
+  text-decoration: none;
+}
+
+.spaced {
+  font-size: 16px;
+  font-stretch: wider;
+}
+
+.pad-top {
+	padding-top: 15px;
+}
+
+.posterfont {
+  font-size: 23px;
+}
+
+#heretohelp p.freephone {
+  font-size: 25px;
+  line-height: 30px;
+}
+
+#heretohelp p.mainphone {
+  font-size: 25px;
+  line-height: 30px;
+}
+
+

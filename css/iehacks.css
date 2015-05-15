@@ -1,0 +1,8 @@
+/* Specific hacks to make crappy IE7 work */
+
+#heretohelp p {
+  font-size: 25px;
+  line-height: 46px;
+  margin: 0;
+  padding: 0;
+}
