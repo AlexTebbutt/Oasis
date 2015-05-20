@@ -1,3 +1,4 @@
+<?php include('includes/htmlfunc.inc.php'); ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -37,6 +38,9 @@
     })
   </script>
 	<div id="holder">
+		
+		<?php DispNav('index'); ?>
+		
 	  <div id="holderimage">
 	    <div id="homebanner">
   		  <div id="logo">
@@ -106,10 +110,5 @@
     <a href="#" class="toc">Page 1</a> <a href="#" class="toc">Page 2</a> <a href="#" class="toc">Page 3</a>
     <a href="#" class="next">Next</a>
   </div>
-	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
-  <script type="text/javascript">
-    _uacct = "UA-3117415-1";
-    urchinTracker();
-  </script> 	
-</body>
-</html>
+
+<?php DispFooter(); ?>

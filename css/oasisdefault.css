@@ -43,28 +43,27 @@ a:hover {
 */
 
 #homebanner {
-  text-align: left;
-  width: 587px; 
+  text-align: center;
   margin: 0 auto 0 auto;
 }
 
 #homebody {
-	width: 587px; 
+/* 	width: 587px;  */
   margin: 0 auto 0 auto;
   padding: 0;
   text-align: right;
 }
 
 #logo {
-  padding-top: 25px;
-  width: 300px;
-  float: left;
+	  padding-top: 25px;
+	  width: 300px;
+		margin: 0 auto;
 }
 
 #heretohelp {
-  float: left;
-  margin: 0 0 0 10px;
-  padding-top: 15px;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 #heretohelp p {
@@ -469,15 +468,44 @@ a:hover {
   width: auto;
   color: white;
   margin: 0;
-  padding: 5px 0 5px 0;
+  padding: 0 0 10px 0;
   background-color: #132c82;
 	text-align: center;
 }
 
+#bluetop ul li {
+	background-color: #8287BF;
+	color: #ffffff;
+	padding: 2px;
+}
+
+.hamburger {
+	padding: 5px 20px 10px 0;
+	text-align: right;
+	margin-top: -45px;
+	margin-bottom: 10px;	
+}
+
+.hamburger a, .hamburger a:hover {
+	color: #ffffff;
+	font-size: 17px;
+	line-height: 21px;
+	text-decoration: none;	
+	text-transform: uppercase;
+} 
+
+.mobile {
+	background-color: #ffffff;
+	margin-top: -483px;
+	transition: all 0.25s ease-in-out;
+}
+
+.show-hide {
+	margin-top: 0;
+}
 
 #navtitle {
-  width: 900px;
-  margin: 0 auto;
+	text-align: center;
 }
 
 #navtop, #navmiddle, #navbottom {
@@ -485,29 +513,42 @@ a:hover {
   margin: 0;
   font-size: 17px;
   line-height: 21px;
-  margin: 0;
-  padding: 0 0 8px 0;
   text-align: center;
 }
 
-#navtop ul, #navmiddle ul, #navbottom ul {
+#navmiddle ul {
 /* Amended width from 900 - 910 for xmas card addition to menu. */
-  width: 910px;
   list-style: none;
   margin: 0 auto;
   padding: 0;
   text-align: center;
 }
 
+#navtop ul {
+  width: auto;
+  margin: 0 auto 0 auto;
+ 	list-style: none;
+  padding: 0 0 0 0;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+	border-top: 2px solid #a3a2ce;
+}
+
+#navbottom ul {
+	list-style: none;
+  margin: 0 auto 10px auto;
+  padding: 0 0 0 0;
+  text-align: center;
+	border-bottom: 2px solid #a3a2ce;
+}
+
 #navtop li, #navmiddle li, #navbottom li {
-  width: 900px;
-  display: inline;
-  margin: 0;
-  padding: 0;
+  margin: 3px;
 }
 
 #navtop a, #navmiddle a, #navbottom a {
-  color: #a3a2ce;
+  color: #ffffff;
   text-decoration: none;
   margin: 0;
   padding:0 22px 5px 0;
@@ -878,6 +919,28 @@ fieldset#cardtotal ul li label {
 
 @media (min-width: 800px) {
 
+	#homebanner, #homebody {
+		width: 587px; 
+	}
+	
+	#homebanner {
+	  text-align: left;
+	}
+	
+	div#bluetop.homenav {
+		display: none;
+	}	
+	
+	#logo {
+	  float: left;
+	}
+	
+	#heretohelp {
+	  float: left;
+	  margin: 0 0 0 10px;
+	  padding-top: 15px;
+	}	
+
 	#navigationhome {
 		display: block;
 	  width: 200px;
@@ -892,7 +955,73 @@ fieldset#cardtotal ul li label {
 	  width: 360px;
 	}
 	
+	.hamburger {
+		display: none;
+	}
 	
+	.mobile {
+		margin-top: 0;
+		background-color: #132c82;
+	}
+	
+	#bluetop {
+		padding-top: 5px;	
+	}
+	
+	#bluetop ul li {
+		background-color: #132c82;
+		padding: 0;
+	}
+	
+	#navtitle {
+	  margin: 0 auto;
+	}
+	
+	#navtop, #navmiddle, #navbottom {
+	  width: auto;
+	  margin: 0;
+	  font-size: 17px;
+	  line-height: 21px;
+	  margin: 0;
+	  padding: 0 0 8px 0;
+	  text-align: center;
+	}
+	
+	#navtop ul, #navmiddle ul, #navbottom ul {
+	/* Amended width from 900 - 910 for xmas card addition to menu. */
+	  width: 910px;
+	  list-style: none;
+	  margin: 0 auto;
+	  padding: 0;
+	  text-align: center;
+	}
+	
+	#navtop li, #navmiddle li, #navbottom li {
+	  width: 900px;
+	  display: inline;
+	  margin: 0;
+	  padding: 0;
+	}
+	
+	#navtop a, #navmiddle a, #navbottom a {
+	  color: #a3a2ce;
+	  text-decoration: none;
+	  margin: 0;
+	  padding:0 22px 5px 0;
+	}
+	
+	#navtop a:hover, #navmiddle a:hover, #navbottom a:hover {
+	 text-decoration: underline;
+	}
+	
+	#navtop a:active {
+	  text-decoration: underline;
+	}
+	
+	#navbottom ul, #navtop ul {
+		border: none;
+	}
+
 
 }
 

@@ -40,56 +40,173 @@ function DispHeader() {
 <?php
 }
 
-function DispNav($page)
+function DispNav($page = NULL)
 {
-	if($page != 'index')
+	
+	switch($page)
 	{
+		
+		case 'index':
+			$title = 'Home';
+			break;
+
+		case 'xmascards':
+			$title = 'christmas cards';
+			break;
+
+		case 'leaflets':
+			$title = 'leaflets';
+			break;
+
+		case 'copying':
+			$title = 'copying / digital printing';
+			break;			
+					
+		case 'businesscards':
+			$title = 'business cards';
+			break;
+
+		case 'letterheads':
+			$title = 'letterheads';
+			break;
+
+		case 'complimentslips':
+			$title = 'compliment slips';
+			break;
+
+		case 'invitations':
+			$title = 'invitations';
+			break;	
+			
+		case 'posterprinting':
+			$title = 'poster printing';
+			break;
+
+		case 'personalstationery':
+			$title = 'personal stationery';
+			break;
+
+		case 'weddingstationery':
+			$title = 'wedding stationery';
+			break;
+
+		case 'newslettersbrochures':
+			$title = 'newsletters / brochures';
+			break;	
+			
+		case 'postcards':
+			$title = 'postcards';
+			break;
+
+		case 'designartwork':
+			$title = 'design / artwork';
+			break;
+
+		case 'aboutus':
+			$title = 'about us';
+			break;
+
+		case 'howtoorder':
+			$title = 'how to order';
+			break;						
+
+		case 'contact':
+			$title = 'contact';
+			break;	
+
+		case 'specialoffer':
+			$title = 'special offers';
+			break;	
+	}
+	
 ?>
 
-  <div id="bluetop">
-      <div id="navtop">
-        <ul>
-          <li id="home"><a href="index.php" title="Home">home</a></li>
-          <li id="xmascards"><a href="xmascards.php" title="Christmas Cards">christmas cards</a></li>
-          <li id="leaflets"><a href="leaflets.php" title="leaflets">leaflets</a></li>
-          <li id="copying"><a href="copying.php" title="Copying">copying</a></li>
-          <li id="businesscards"><a href="businesscards.php" title="Business Cards">business cards</a></li>
-          <li id="letterheads"><a href="letterheads.php" title="Letterheads">letterheads</a></li>
-          <li id="complimentslips"><a href="complimentslips.php" title="Compliment Slips">compliment slips</a></li>
-          <li id="invitations"><a href="invitations.php" title="Invitations">invitations</a></li>
-        </ul>
-      </div>
-      <div class="clear"></div>
-      <div id="navmiddle">
-        <ul>
-          <li id="posterprinting"><a href="posterprinting.php" title="Poster Printing">poster printing</a></li>
-          <li id="personalstationery"><a href="personalstationery.php" title="Personal Stationery">personal stationery</a></li>
-          <li id="weddingstationery"><a href="weddingstationery.php" title="Wedding Stationery">wedding stationery</a></li>
-          <li id="newslettersbrochures"><a href="newslettersbrochures.php" title="Newsletters/Brochures">newsletters/brochures</a></li>
-          <li id="postcards"><a href="postcards.php" title="Postcards">postcards</a></li>
-          <li id="designartwork"><a href="designartwork.php" title="Design/Artwork">design/artwork</a></li>
-        </ul>
-      </div>
-      <div class="clear"></div>
-      <div id="navbottom">
-        <ul>
-          <li id="aboutus"><a href="aboutus.php" title="About Us">about us</a></li>
-          <li id="howtoorder"><a href="howtoorder.php" title="How To Order">HOW TO ORDER</a></li>
-          <li id="contact"><a href="contact.php" title="Contact">contact</a></li>
-        </ul>
-      </div>
-      <div class="clear"></div>
-      <div id="navtitle"><h1 class="page-title">business cards</h1></div>
+	<div id="bluetop"<?php if($page == 'index') echo ' class="homenav"'; ?>>
+
+		<div class="mobile">
+
+	    <div id="navtop">
+
+	      <ul>
+
+	        <li id="home"><a href="index.php" title="Home">home</a></li>
+
+	        <li id="xmascards"><a href="xmascards.php" title="Christmas Cards">christmas cards</a></li>
+
+	        <li id="leaflets"><a href="leaflets.php" title="leaflets">leaflets</a></li>
+
+	        <li id="copying"><a href="copying.php" title="Copying">copying</a></li>
+
+	        <li id="businesscards"><a href="businesscards.php" title="Business Cards">business cards</a></li>
+
+	        <li id="letterheads"><a href="letterheads.php" title="Letterheads">letterheads</a></li>
+
+	        <li id="complimentslips"><a href="complimentslips.php" title="Compliment Slips">compliment slips</a></li>
+
+	        <li id="invitations"><a href="invitations.php" title="Invitations">invitations</a></li>
+
+	      </ul>
+
+	    </div>
+
+	    <div id="navmiddle">
+
+	      <ul>
+
+	        <li id="posterprinting"><a href="posterprinting.php" title="Poster Printing">poster printing</a></li>
+
+	        <li id="personalstationery"><a href="personalstationery.php" title="Personal Stationery">personal stationery</a></li>
+
+	        <li id="weddingstationery"><a href="weddingstationery.php" title="Wedding Stationery">wedding stationery</a></li>
+
+	        <li id="newslettersbrochures"><a href="newslettersbrochures.php" title="Newsletters/Brochures">newsletters/brochures</a></li>
+
+	        <li id="postcards"><a href="postcards.php" title="Postcards">postcards</a></li>
+
+	        <li id="designartwork"><a href="designartwork.php" title="Design/Artwork">design/artwork</a></li>
+
+	      </ul>
+
+	    </div>
+
+	    <div id="navbottom">
+
+	      <ul>
+
+	        <li id="aboutus"><a href="aboutus.php" title="About Us">about us</a></li>
+
+	        <li id="howtoorder"><a href="howtoorder.php" title="How To Order">HOW TO ORDER</a></li>
+
+	        <li id="contact"><a href="contact.php" title="Contact">contact</a></li>
+
+	      </ul>
+
+	    </div>
+
     </div>
 
+    <div id="navtitle"><h1 class="page-title"><?php echo $title; ?></h1></div>
+    
+    <div class="hamburger"><a class="mobile-menu" href="#">Menu</a></div>
+
+  </div>
+
 <?php
-	}
+
 }
 
 /*----------------------------------------------------------------------------------------*/
 
 function DispFooter () {
 ?>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+	<script src="includes/functions.js"></script>
+	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    _uacct = "UA-3117415-1";
+    urchinTracker();
+  </script> 	
 </body>
 </html>
 <?php

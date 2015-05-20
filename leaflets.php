@@ -1,3 +1,4 @@
+<?php include('includes/htmlfunc.inc.php'); ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -10,42 +11,10 @@
 </head>
 <body>
 	<div id="holder">
-    <div id="bluetop">
-      <div id="navtop">
-        <ul>
-          <li id="home"><a href="index.php" title="Home">home</a></li>
-          <li id="xmascards"><a href="xmascards.php" title="Christmas Cards">christmas cards</a></li>
-          <li id="leaflets"><a href="leaflets.php" title="leaflets">leaflets</a></li>
-          <li id="copying"><a href="copying.php" title="Copying">copying</a></li>
-          <li id="businesscards"><a href="businesscards.php" title="Business Cards">business cards</a></li>
-          <li id="letterheads"><a href="letterheads.php" title="Letterheads">letterheads</a></li>
-          <li id="complimentslips"><a href="complimentslips.php" title="Compliment Slips">compliment slips</a></li>
-          <li id="invitations"><a href="invitations.php" title="Invitations">invitations</a></li>
-        </ul>
-      </div>
-      <div class="clear"></div>
-      <div id="navmiddle">
-        <ul>
-          <li id="posterprinting"><a href="posterprinting.php" title="Poster Printing">poster printing</a></li>
-          <li id="personalstationery"><a href="personalstationery.php" title="Personal Stationery">personal stationery</a></li>
-          <li id="weddingstationery"><a href="weddingstationery.php" title="Wedding Stationery">wedding stationery</a></li>
-          <li id="newslettersbrochures"><a href="newslettersbrochures.php" title="Newsletters/Brochures">newsletters/brochures</a></li>
-          <li id="postcards"><a href="postcards.php" title="Postcards">postcards</a></li>
-          <li id="designartwork"><a href="designartwork.php" title="Design/Artwork">design/artwork</a></li>
-        </ul>
-      </div>
-      <div class="clear"></div>
-      <div id="navbottom">
-        <ul>
-          <li id="aboutus"><a href="aboutus.php" title="About Us">about us</a></li>
-          <li id="howtoorder"><a href="howtoorder.php" title="How To Order">HOW TO ORDER</a></li>
-          <li id="contact"><a href="contact.php" title="Contact">contact</a></li>
-        </ul>
-      </div>
-      <div class="clear"></div>
-      <div id="navtitle"><h1 class="page-title">leaflets</h1></div>
-    </div>
-    <div id="main">
+		
+		<?php DispNav('leaflets'); ?>
+		
+		<div id="main">
       <table class="sizes">
         <tr><td class="bold-large">130gsm paper</td><td>gloss/silk</td><td><a href="#130A4">A4 <span class="mini">(210x297mm)</span></a></td><td><a href="#130A5">A5 <span class="mini">(148.5x210mm)</span></a></td><td><a href="#130A6">A6 <span class="mini">(105x148.5mm)</span></a></td><td><a href="#13013A4">1/3rd A4 <span class="mini">(99x210mm)</span></a></td></tr>
         <tr><td class="bold-large">170gsm paper</td><td>gloss/silk</td><td><a href="#170A4">A4 <span class="mini">(210x297mm)</span></a></td><td><a href="#170A5">A5 <span class="mini">(148.5x210mm)</span></a></td><td><a href="#170A6">A6 <span class="mini">(105x148.5mm)</span></a></td><td><a href="#17013A4">1/3rd A4 <span class="mini">(99x210mm)</span></a></td></tr>	
@@ -186,10 +155,4 @@
       </div>
     </div>
   </div>
-	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
-  <script type="text/javascript">
-    _uacct = "UA-3117415-1";
-    urchinTracker();
-  </script>   
-</body>
-</html>
+<?php DispFooter(); ?>
