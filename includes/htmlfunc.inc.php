@@ -123,7 +123,7 @@ function DispNav($page = NULL)
 
 	<div id="bluetop"<?php if($page == 'index') echo ' class="homenav"'; ?>>
 
-		<div class="mobile">
+		<div class="mobile show-hide">
 
 	    <div id="navtop">
 
@@ -185,10 +185,8 @@ function DispNav($page = NULL)
 
     </div>
 
-    <div id="navtitle"><h1 class="page-title"><?php echo $title; ?></h1></div>
-    
-    <div class="hamburger"><a class="mobile-menu" href="#">Menu</a></div>
-
+    <div id="navtitle"><h1 class="page-title"><?php echo $title; ?></h1><div class="hamburger"><a class="mobile-menu" href="#">Menu</a></div></div>
+ 
   </div>
 
 <?php
