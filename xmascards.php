@@ -11,7 +11,7 @@
 </head>
 <body>
 	<div id="holder">
-		
+
 		<?php DispNav('xmascards'); ?>
 		
     <div id="main">
