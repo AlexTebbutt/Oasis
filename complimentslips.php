@@ -16,9 +16,9 @@
 		
     <div id="main">
       <table class="sizes">
-        <tr><td><a href="#100AA4"><span class="bold-large">compliment slips on 100gsm</span> non-watermarked paper 1/3rd A4 <span class="mini">(99x210mm)</span></a></td></tr>
-        <tr><td><a href="#120RA4"><span class="bold-large">compliment slips on 120gsm</span> non-watermarked paper 1/3rd A4 <span class="mini">(99x210mm)</span></a></td></tr>	
-        <tr><td><a href="#100CA4"><span class="bold-large">compliment slips on 100gsm</span> Conqueror watermarked paper 1/3rd A4 <span class="mini">(99x210mm)</span></a></td></tr>
+        <tr><td><a href="#100AA4"><span class="bold-large">compliment slips on 100gsm</span></a> non-watermarked paper 1/3rd A4 <span class="mini">(99x210mm)</span></td></tr>
+        <tr><td><a href="#120RA4"><span class="bold-large">compliment slips on 120gsm</span></a> non-watermarked paper 1/3rd A4 <span class="mini">(99x210mm)</span></td></tr>	
+        <tr><td><a href="#100CA4"><span class="bold-large">compliment slips on 100gsm</span></a> Conqueror watermarked paper 1/3rd A4 <span class="mini">(99x210mm)</span></td></tr>
       </table>
       <p><h1 class="bold-massive">PRICES</h1></p>
       <div id="100AA4">

@@ -98,6 +98,7 @@
           </div>
         </div>
         <div class="clear"></div>
+        <a href="uploads/ABC100_2.pdf">PDF Link - Click here</a>
     		<div id="date">
     		  <p>last updated: <?php echo date("d.m.y"); ?></p>
     		</div>

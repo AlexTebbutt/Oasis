@@ -131,7 +131,7 @@ function DispNav($page = NULL)
 
 	        <li id="home"><a href="index.php" title="Home">home</a></li>
 
-	        <li id="xmascards"><a href="xmascards.php" title="Christmas Cards">christmas cards</a></li>
+<!-- 	        <li id="xmascards"><a href="xmascards.php" title="Christmas Cards">christmas cards</a></li> -->
 
 	        <li id="leaflets"><a href="leaflets.php" title="leaflets">leaflets</a></li>
 

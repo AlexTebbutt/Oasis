@@ -12,7 +12,7 @@
 <body>
 	<div id="holder">
  
-		<?php DispNav('xmascards'); ?>
+		<?php DispNav('businesscards'); ?>
 		 
     <div id="main">
       <table class="sizes">
